@@ -15,7 +15,7 @@ const HomePage = () => {
           <h2 className='text-2xl font-semibold mb-8'>{t('hero.subheader')}</h2>
           <p className='text-xl font-medium'>{t('hero.description')}</p>
         </div>
-        <FaChevronDown className='text-2xl absolute bottom-20 left-1/2 left-1/2 transform -translate-x-1/2'/>
+        <FaChevronDown className='text-2xl absolute bottom-24 left-1/2 left-1/2 transform -translate-x-1/2'/>
       </div>
       <Expertise icon={<FaCloudsmith/>} header={t('expertise.it-law.header')} content={t('expertise.it-law.content')}/>
       <Expertise icon={<FaServer/>} header={t('expertise.data-law.header')} content={t('expertise.data-law.content')}/>
@@ -27,7 +27,7 @@ const HomePage = () => {
       </div>
       <div class='wrap my-16'>
         <div class='fill-wrap'>
-          <a href='contact.html' class='btn btn-desert btn-b-t text-2xl lg:text-4xl p-4 md:p-6 rounded-full'>{t('navbar.contact')}</a>
+          <a href='mailto:ra@biernath.com' class='btn btn-desert btn-b-t text-2xl lg:text-4xl p-4 md:p-6 rounded-full'>{t('navbar.contact')}</a>
         </div>
       </div>
     </div>

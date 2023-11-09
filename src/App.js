@@ -3,6 +3,7 @@ import './App.css';
 import './index.css';
 import HomePage from './HomePage';
 import LegalInformation from './LegalInformation';
+import PrivacyPolicy from './PrivacyPolicy';
 import Navbar from './Navbar';
 import Footer from './footer';
 import {
@@ -14,16 +15,17 @@ import {
 
 function App() {
   return (
-    <div className="App">
-      <Navbar />
-        <Router>
+    <Router>
+      <div className="App">
+        <Navbar />
           <Routes>
             <Route path="/home" element={<HomePage />} />
             <Route path="/legal-information" element={<LegalInformation />} />
+            <Route path="/privacy-policy" element={<PrivacyPolicy />} />
           </Routes>
-        </Router>
-      <Footer />
-    </div>
+        <Footer />
+      </div>
+    </Router>
   );
 }
 
