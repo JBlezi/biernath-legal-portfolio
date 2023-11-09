@@ -4,12 +4,13 @@ import { useTranslation } from 'react-i18next';
 import logo from './images/biernath.com.favicon.png'; // Adjust the path as necessary
 
 const Navbar = () => {
-  const [currentLanguage, setCurrentLanguage] = useState('en');
+  const [currentLanguage, setCurrentLanguage] = useState(localStorage.getItem("lng") || 'de');
   const { t, i18n } = useTranslation('');
 
   const toggleLanguage = (lang) => {
     setCurrentLanguage(lang);
     i18n.changeLanguage(lang);
+    localStorage.setItem("lng", lang)
   };
 
   return (

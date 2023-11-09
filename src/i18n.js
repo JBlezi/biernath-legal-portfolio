@@ -11,7 +11,8 @@ i18n
   .use(initReactI18next)
   // init i18next
   .init({
-    fallbackLng: 'en', // fallback language
+    lng: localStorage.getItem("lng") || 'de',
+    fallbackLng: 'de', // fallback language
     debug: true,
     interpolation: {
       escapeValue: false, // not needed for React as it escapes by default
