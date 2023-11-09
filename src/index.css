@@ -9,9 +9,154 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #F1F5FF; /* Your desired background color */
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.active {
+  color: black;
+  font-weight: bold;
+}
+
+
+
+/* ------------------------------ */
+/* ------- BUTTON STYLING ------- */
+/* ------------------------------ */
+/* ----------- Buttons ---------- */
+.wrap {
+  position: relative;
+}
+
+
+.fill-wrap {
+  display: flex;
+  width: 100%;
+  overflow: hidden;
+}
+
+.btn {
+  overflow: hidden;
+  text-decoration: none;
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  width: auto;
+  border: 1px solid #fFF;
+  text-align: center;
+  z-index: 20;
+  transition: all 0.35s cubic-bezier(1, 0, 0, 1);
+}
+
+.btn:hover {
+  color: #fFF;
+}
+
+/* ----------- COLOURS ---------- */
+.btn-desert {
+  border-color: #222129;
+  color: #222129;
+}
+.btn-desert::before, .btn-desert::after {
+  background: #222129;
+}
+
+/* --------- BUTTON FILL -------- */
+.btn::before,
+.btn::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  transition: all 0.35s cubic-bezier(1, 0, 0, 1);
+}
+
+.btn-r-l::after,
+.btn-l-r::after {
+  height: 100%;
+  width: 0;
+  top: 0;
+}
+
+.btn-r-l:hover::after,
+.btn-l-r:hover::after {
+  width: 100%;
+}
+
+.btn-t-b::after,
+.btn-b-t::after {
+  height: 0;
+  width: 100%;
+  left: 0;
+  border-radius: 3px;
+}
+
+.btn-t-b:hover::after,
+.btn-b-t:hover::after {
+  height: 100%;
+}
+
+.btn-i-o::after,
+.btn-i-o-r::after {
+  height: 100%;
+  top: 0;
+  left: 50%;
+  width: 0;
+}
+
+.btn-i-o:hover::after,
+.btn-i-o-r:hover::after {
+  left: 0;
+  width: 100%;
+}
+
+.btn-i-o-r::after {
+  border-radius: 80px;
+}
+.btn-i-o-r:hover::after {
+  border-radius: 3px;
+}
+
+.btn-o-i:before, .btn-o-i:after {
+  height: 100%;
+  top: 0;
+  width: 0;
+}
+.btn-o-i::before {
+  left: 0;
+}
+.btn-o-i::after {
+  right: 0;
+}
+
+.btn-o-i:hover::before,
+.btn-o-i:hover::after {
+  width: 50%;
+}
+
+.btn-l-r::after {
+  left: 0;
+}
+
+.btn-r-l::after {
+  right: 0;
+}
+
+.btn-t-b::after {
+  top: 0;
+}
+
+.btn-b-t::after {
+  bottom: 0;
+}
+
+.btn-l-r-r {
+  border-radius: 30px;
+}
+.btn-l-r-r:hover::after, .btn-l-r-r:hover {
+  border-radius: 50px;
+  background: #222129;
+}/*# sourceMappingURL=main.css.map */

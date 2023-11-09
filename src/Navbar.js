@@ -1,0 +1,42 @@
+
+import React, { Suspense, useState } from 'react';
+import { useTranslation } from 'react-i18next';
+import logo from './images/biernath.com.favicon.png'; // Adjust the path as necessary
+
+const Navbar = () => {
+  const [currentLanguage, setCurrentLanguage] = useState('en');
+  const { t, i18n } = useTranslation('');
+
+  const toggleLanguage = (lang) => {
+    setCurrentLanguage(lang);
+    i18n.changeLanguage(lang);
+  };
+
+  return (
+    <nav className="p-4 text-black">
+      <div className="flex items-center justify-between lg:mx-10 lg:mt-10">
+        <a href="index.html" className="flex flex-row">
+          <img src={logo} alt="Biernath Legal Logo" className="lg:h-12 h-10 rounded-full" />
+        </a>
+        <div className='wrap flex flex-row'>
+          <div className='fill-wrap'>
+            <div className="flex flex-row mx-4 lg:text-xl">
+              <button onClick={() => toggleLanguage('en')} className={currentLanguage === 'en' ? 'active' : ''}>EN<span style={{color: 'black'}}>/</span></button>
+              <button onClick={() => toggleLanguage('de')} className={currentLanguage === 'de' ? 'active' : ''}>DE</button>
+              {/* Your other content here */}
+            </div>
+            <a href='contact.html' className='btn btn-desert btn-b-t md:p-4 p-2 rounded-full'>{t('navbar.contact')}</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  );
+};
+
+export default function App() {
+  return (
+    <Suspense fallback="loading">
+      <Navbar/>
+    </Suspense>
+  );
+}
