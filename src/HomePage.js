@@ -21,10 +21,15 @@ const HomePage = () => {
       <Expertise icon={<FaServer/>} header={t('expertise.data-law.header')} content={t('expertise.data-law.content')}/>
       <Expertise icon={<FaPlay/>} header={t('expertise.media-law.header')} content={t('expertise.media-law.content')}/>
       <Expertise icon={<FaShoppingCart/>} header={t('expertise.ecommerce-law.header')} content={t('expertise.ecommerce-law.content')}/>
-        <div className='my-24'>
-          <h2 className='text-2xl font-semibold underline mb-8'>Benedikt Biernath, {t('bio.header')}</h2>
-          <p className='text-xl font-medium'>{t('bio.description')}</p>
+      <div className='my-24'>
+        <h2 className='text-2xl font-semibold underline mb-8'>Benedikt Biernath, {t('bio.header')}</h2>
+        <p className='text-xl font-medium'>{t('bio.description')}</p>
+      </div>
+      <div class='wrap my-16'>
+        <div class='fill-wrap'>
+          <a href='contact.html' class='btn btn-desert btn-b-t text-2xl lg:text-4xl p-4 md:p-6 rounded-full'>{t('navbar.contact')}</a>
         </div>
+      </div>
     </div>
   );
 };
