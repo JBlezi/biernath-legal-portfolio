@@ -16,7 +16,7 @@ import {
 function App() {
   return (
     <Router>
-      <div className="App">
+      <div className="App mx-auto">
         <Navbar />
           <Routes>
             <Route path="/home" element={<HomePage />} />
