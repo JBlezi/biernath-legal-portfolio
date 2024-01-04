@@ -19,7 +19,7 @@ function App() {
       <div className="App mx-auto">
         <Navbar />
           <Routes>
-            <Route path="/home" element={<HomePage />} />
+            <Route path="/" element={<HomePage />} />
             <Route path="/legal-information" element={<LegalInformation />} />
             <Route path="/privacy-policy" element={<PrivacyPolicy />} />
           </Routes>
