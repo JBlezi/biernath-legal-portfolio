@@ -2,6 +2,7 @@ import React from 'react';
 import { FaChevronDown, FaCloudsmith, FaServer, FaPlay, FaShoppingCart } from 'react-icons/fa';
 import Expertise from './expertise';
 import { useTranslation } from 'react-i18next';
+import sketch from './images/eurasian-lawyer.png'
 
 
 const HomePage = () => {
@@ -11,9 +12,10 @@ const HomePage = () => {
     <div className="mx-8 md:mx-16">
       <div className="h-screen md:h-[70vh] relative flex">
         <div className='my-auto'>
-          <h1 className="text-4xl md:text-6xl font-bold mb-2">Biernath Legal</h1>
-          <h2 className='text-2xl md:text-3xl font-semibold mb-8'>{t('hero.subheader')}</h2>
-          <p className='text-xl md:text-2xl font-medium'>{t('hero.description')}</p>
+          <img src={sketch} alt="eurasian lawyer" className='h-[50vh] xl:h-[70vh] absolute -top-12 right-0 opacity-50 xl:opacity-90'/>
+          <h1 className="text-4xl md:text-6xl font-bold mb-2 relative z-20">Biernath Legal</h1>
+          <h2 className='text-2xl md:text-3xl font-semibold mb-8 relative'>{t('hero.subheader')}</h2>
+          <p className='text-xl md:text-2xl font-medium relative xl:w-3/5'>{t('hero.description')}</p>
         </div>
         <FaChevronDown className='md:hidden text-2xl md:text-4xl absolute bottom-24 left-1/2 left-1/2 transform -translate-x-1/2'/>
       </div>
