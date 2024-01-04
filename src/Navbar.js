@@ -1,7 +1,7 @@
 
 import React, { Suspense, useState } from 'react';
 import { useTranslation } from 'react-i18next';
-import logo from './images/biernath.com.favicon.png';
+import logo from './images/logo192.png';
 import { Link } from 'react-router-dom';
 
 const Navbar = () => {
