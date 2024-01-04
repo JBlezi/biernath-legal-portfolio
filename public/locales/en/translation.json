@@ -2,9 +2,30 @@
   "navbar": {
     "contact": "Contact"
   },
+  "hero": {
+    "subheader": "Specialized legal advice",
+    "description": "I advise on all matters relating to IT law, data protection law, media law and e-commerce. The focus of my work is on advising fintech companies, software manufacturers and start-ups."
+  },
+  "bio": {
+    "header": "Rechtsanwalt",
+    "description": "I advise on all matters relating to IT law, data protection law, media law and e-commerce. The focus of my work is on advising fintech companies, software manufacturers and start-ups. My work ranges from strategic advice and contract drafting to representation in out-of-court and in-court disputes. I can draw on my many years of experience as a lawyer, as in-house counsel for a German bank, as data protection officer for an automobile manufacturer and as legal counsel for an industry association in the media sector."
+  },
   "expertise": {
     "it-law": {
-      "header": "IT-Law"
+      "header": "IT-Law",
+      "content": "IT legal advice primarily covers contractual issues. We draft, review and negotiate all types of contracts in the areas of software development (agile and 'waterfall'), software transfer, licenses, maintenance, open source, SaaS and SLAs."
+    },
+    "data-law": {
+      "header": "Data Protection Law",
+      "content": "The focus here is on combining data protection and economic efficiency. We support and review your processes and IT architecture, create the necessary documents and ensure that your company is compliant and successful."
+    },
+    "media-law": {
+      "header": "Media Law",
+      "content": "Our media law practice focuses in particular on copyright issues. We protect your rights, draft and review license agreements and other media law contracts and negotiate cooperations and productions for you."
+    },
+    "ecommerce-law": {
+      "header": "E-Commmerce",
+      "content": "We support you in setting up and expanding your business model. We draft tailor-made general terms and conditions, data protection declarations and other necessary documents for your company and advise you in your day-to-day business."
     }
   }
 }

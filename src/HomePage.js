@@ -21,21 +21,25 @@ const HomePage = () => {
       </div>
       <div>
         <div className='lg:flex lg:flex-row'>
-          <div className="lg:pr-8">
+          <div className="lg:w-1/2 lg:pr-8">
             <Expertise icon={<FaCloudsmith/>} header={t('expertise.it-law.header')} content={t('expertise.it-law.content')}/>
           </div>
-          <Expertise icon={<FaServer/>} header={t('expertise.data-law.header')} content={t('expertise.data-law.content')}/>
+          <div className='lg:w-1/2'>
+            <Expertise icon={<FaServer/>} header={t('expertise.data-law.header')} content={t('expertise.data-law.content')}/>
+          </div>
         </div>
         <div className='lg:flex lg:flex-row'>
-          <div className="lg:pr-8">
+          <div className="lg:w-1/2 lg:pr-8">
             <Expertise icon={<FaPlay/>} header={t('expertise.media-law.header')} content={t('expertise.media-law.content')}/>
           </div>
-          <Expertise icon={<FaShoppingCart/>} header={t('expertise.ecommerce-law.header')} content={t('expertise.ecommerce-law.content')}/>
+          <div className='lg:w-1/2'>
+            <Expertise icon={<FaShoppingCart/>} header={t('expertise.ecommerce-law.header')} content={t('expertise.ecommerce-law.content')}/>
+          </div>
         </div>
       </div>
       <div className='my-24 md:my-48'>
         <h2 className='text-2xl md:text-4xl font-semibold underline mb-8'>Benedikt Biernath, {t('bio.header')}</h2>
-        <p className='text-xl md:text-2xl font-medium'>{t('bio.description')}</p>
+        <p className='text-xl md:text-2xl font-medium xl:leading-normal'>{t('bio.description')}</p>
       </div>
       <div class='wrap my-16'>
         <div class='fill-wrap'>
