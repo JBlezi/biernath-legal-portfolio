@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/biernath-legal-portfolio/static/css/main.f2661bbc.css",
-    "main.js": "/biernath-legal-portfolio/static/js/main.b33a0973.js",
+    "main.js": "/biernath-legal-portfolio/static/js/main.bdbc318e.js",
     "static/js/787.05f53a66.chunk.js": "/biernath-legal-portfolio/static/js/787.05f53a66.chunk.js",
     "static/media/eurasian-lawyer.png": "/biernath-legal-portfolio/static/media/eurasian-lawyer.7f1565d095f8a177953d.png",
     "index.html": "/biernath-legal-portfolio/index.html",
     "static/media/getFetch.cjs": "/biernath-legal-portfolio/static/media/getFetch.40f37ddea2378391108f.cjs",
     "main.f2661bbc.css.map": "/biernath-legal-portfolio/static/css/main.f2661bbc.css.map",
-    "main.b33a0973.js.map": "/biernath-legal-portfolio/static/js/main.b33a0973.js.map",
+    "main.bdbc318e.js.map": "/biernath-legal-portfolio/static/js/main.bdbc318e.js.map",
     "787.05f53a66.chunk.js.map": "/biernath-legal-portfolio/static/js/787.05f53a66.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f2661bbc.css",
-    "static/js/main.b33a0973.js"
+    "static/js/main.bdbc318e.js"
   ]
 }
