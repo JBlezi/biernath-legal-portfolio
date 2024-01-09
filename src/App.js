@@ -7,22 +7,21 @@ import PrivacyPolicy from './PrivacyPolicy';
 import Navbar from './Navbar';
 import Footer from './footer';
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Routes,
   Route
 } from "react-router-dom";
-
 
 function App() {
   return (
     <Router>
       <div className="App mx-auto">
         <Navbar />
-          <Routes>
-            <Route path="/" element={<HomePage />} />
-            <Route path="/legal-information" element={<LegalInformation />} />
-            <Route path="/privacy-policy" element={<PrivacyPolicy />} />
-          </Routes>
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/legal-information" element={<LegalInformation />} />
+          <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+        </Routes>
         <Footer />
       </div>
     </Router>

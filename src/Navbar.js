@@ -24,7 +24,7 @@ const Navbar = () => {
               <button onClick={() => toggleLanguage('en')} className={currentLanguage === 'en' ? 'active' : ''}>EN<span style={{color: 'black'}}>/</span></button>
               <button onClick={() => toggleLanguage('de')} className={currentLanguage === 'de' ? 'active' : ''}>DE</button>
             </div>
-            <a href='mailto:ra@biernath.com' className='btn btn-desert btn-b-t md:p-6 p-3 text-xl md:text-3xl rounded-full'>c</a>
+            <a href='mailto:ra@biernath.com' className='btn btn-desert btn-b-t md:p-6 p-3 text-xl md:text-3xl rounded-full'>{t('navbar.contact')}</a>
           </div>
         </div>
       </div>
