@@ -3,16 +3,26 @@ import { initReactI18next } from 'react-i18next';
 import Backend from 'i18next-http-backend';
 import LanguageDetector from 'i18next-browser-languagedetector';
 
+// Import your translations files
+import translationEN from './locales/en/translation.json';
+import translationDE from './locales/de/translation.json';
+
+// the translations
+const resources = {
+  en: {
+    translation: translationEN
+  },
+  de: {
+    translation: translationDE
+  }
+};
+
 i18n
-  // use the http backend as the i18next backend
-  .use(Backend)
-  .use(LanguageDetector)
-  // pass the i18n instance to react-i18next
   .use(initReactI18next)
   // init i18next
   .init({
+    resources,
     lng: localStorage.getItem("lng") || 'de',
-    loadPath: '/biernath-legal-portfolio/locales/{{lng}}/translation.json',
     fallbackLng: 'de', // fallback language
     debug: true,
     interpolation: {
