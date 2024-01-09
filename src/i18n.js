@@ -12,6 +12,7 @@ i18n
   // init i18next
   .init({
     lng: localStorage.getItem("lng") || 'de',
+    loadPath: '/locales/{{lng}}/translation.json', // Adjust the path as needed
     fallbackLng: 'de', // fallback language
     debug: true,
     interpolation: {
