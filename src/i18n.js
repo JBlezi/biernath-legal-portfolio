@@ -12,7 +12,7 @@ i18n
   // init i18next
   .init({
     lng: localStorage.getItem("lng") || 'de',
-    loadPath: '/locales/{{lng}}/translation.json', // Adjust the path as needed
+    loadPath: 'https://jblezi.github.io/biernath-legal-portfolio/locales/{{lng}}/translation.json',
     fallbackLng: 'de', // fallback language
     debug: true,
     interpolation: {
