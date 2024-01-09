@@ -1,0 +1,31 @@
+{
+  "navbar": {
+    "contact": "Kontakt"
+  },
+  "hero": {
+    "subheader": "Spezialisierte Rechtsberatung",
+    "description": "Ich berate in allen Fragen zum IT-Recht, Datenschutzrecht, Medienrecht und E-Commerce. Der Schwerpunkt meiner Arbeit liegt in der Beratung von Fintech-Unternehmen, Software-Herstellern und Startups."
+  },
+  "bio": {
+    "header": "Rechtsanwalt",
+    "description": "Ich berate in allen Fragen zum IT-Recht, Datenschutzrecht, Medienrecht und E-Commerce. Der Schwerpunkt meiner Arbeit liegt in der Beratung von Fintech-Unternehmen, Software-Herstellern und Startups. Meine Tätigkeit reicht von der strategischen Beratung über die Vertragsgestaltung bis zur Vertretung in außergerichtlichen und gerichtlichen Streitfällen. Dabei kann ich auf meine langjährigen Erfahrungen als Rechtsanwalt, als Syndikusanwalt einer deutschen Bank, als Datenschutzbeauftragter eines Automobilherstellers und als Justiziar eines Branchenverbandes aus der Medienwirtschaft zurückgreifen."
+  },
+  "expertise": {
+    "it-law": {
+      "header": "IT-Recht",
+      "content": "Die IT-rechtliche Beratung umfasst vor allem vertragliche Themen. Wir erstellen, prüfen und verhandeln alle Arten von Verträgen im Bereich Softwareerstellung (agil und „Wasserfall“), Softwareüberlassung, Lizenzen, Wartung, Open Source, SaaS und SLAs."
+    },
+    "data-law": {
+      "header": "Datenschutzrecht",
+      "content": "Die Verbindung von Datenschutz und Wirtschaftlichkeit steht hier im Vordergrund. Wir begleiten und prüfen Ihre Prozesse und IT-Architektur, erstellen erforderliche Dokumente und stellen sicher, dass Ihr Unternehmen compliant und erfolgreich ist."
+    },
+    "media-law": {
+      "header": "Medienrecht",
+      "content": "In der medienrechtlichen Praxis geht es insbesondere um urheberrechtliche Fragestellungen. Wir schützen Ihre Rechte, entwerfen und prüfen Lizenzverträge und andere medienrechtliche Verträge und verhandeln für Sie über Kooperationen und Produktionen."
+    },
+    "ecommerce-law": {
+      "header": "E-Commmerce",
+      "content": "Wir begleiten Sie beim Aufbau und Ausbau Ihres Geschäftsmodells. Wir entwerfen für Ihr Unternehmen maßgeschneiderte Allgemeine Geschäftsbedingungen (AGB), Datenschutzerklärungen und andere notwendige Dokumente und beraten Sie im Alltagsgeschäft."
+    }
+  }
+}
